@@ -1,0 +1,222 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "category": "Milk",
+      "name": "Whole Milk",
+      "description": "Fresh whole milk from organic farms",
+      "price": 3.99,
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "2",
+      "category": "Milk",
+      "name": "Skim Milk",
+      "description": "Fat-free skim milk, perfect for the health-conscious",
+      "price": 2.99,
+      "image": "https://media3.giphy.com/media/3oz8xK0liGg1yTgcZq/giphy.webp?cid=ecf05e4712dw9wsu5551nqaaa9bwc4tgf34a1iofazoq23nc&ep=v1_gifs_search&rid=giphy.webp&ct=g"
+    },
+    {
+      "id": "3",
+      "category": "Milk",
+      "name": "Almond Milk",
+      "description": "Delicious almond milk for those with lactose intolerance",
+      "price": 4.49,
+      "image": "https://media3.giphy.com/media/GEMgH494qPS5G/200.webp?cid=ecf05e4712dw9wsu5551nqaaa9bwc4tgf34a1iofazoq23nc&ep=v1_gifs_search&rid=200.webp&ct=g"
+    },
+    {
+      "id": "4",
+      "category": "Milk",
+      "name": "Soy Milk",
+      "description": "Nutritious soy milk, a vegan alternative to dairy",
+      "price": 3.49,
+      "image": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWVueWc3YXRoZDNhamIzOTFla2w4M3cxenFpMjQ3NTBybmZ1ejY3ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/jR6015fbSPPdItWbf5/giphy.webp"
+    },
+    {
+      "id": "5",
+      "category": "Cheese",
+      "name": "Cheddar Cheese",
+      "description": "Classic cheddar cheese with a rich flavor",
+      "price": 5.99,
+      "image": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXpiOW00djVvM3N1YmEyYXlma3lpNWR6NXJsNGwwOWpnMXJrZHNvZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/iJ8CxvHRj1uw1KWEF8/giphy.webp"
+    },
+    {
+      "id": "6",
+      "category": "Cheese",
+      "name": "Mozzarella Cheese",
+      "description": "Smooth and creamy mozzarella cheese for pizzas and pasta",
+      "price": 4.49,
+      "image": "https://media0.giphy.com/media/oGczu7JhLEcz6/200.webp?cid=790b7611z4dgtl7qpfa987a3vw6ev9jdqfdczxulxtlw7gpu&ep=v1_gifs_search&rid=200.webp&ct=g"
+    },
+    {
+      "id": "7",
+      "category": "Cheese",
+      "name": "Parmesan Cheese",
+      "description": "Sharp and nutty parmesan cheese, perfect for grating",
+      "price": 6.99,
+      "image": "https://media0.giphy.com/media/qJRmIhDzbrFvpiBaRS/giphy.webp?cid=790b7611rtmj5298px23pnnj2489fuixik078e7trc27q6sx&ep=v1_gifs_search&rid=giphy.webp&ct=g"
+    },
+    {
+      "id": "8",
+      "category": "Butter",
+      "name": "Salted Butter",
+      "description": "Creamy salted butter for spreading on toast",
+      "price": 3.49,
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "9",
+      "category": "Butter",
+      "name": "Unsalted Butter",
+      "description": "Pure unsalted butter for baking and cooking",
+      "price": 3.49,
+      "image": "https://media0.giphy.com/media/ZbRAvMuUsnME8/200.webp?cid=ecf05e47rjpnanoomxqtkp67l0ekw6o0d29om8ixtb6rxnuw&ep=v1_gifs_search&rid=200.webp&ct=g"
+    },
+    {
+      "id": "10",
+      "category": "Butter",
+      "name": "Whipped Butter",
+      "description": "Light and fluffy whipped butter for easy spreading",
+      "price": 4.99,
+      "image": "https://media2.giphy.com/media/ekviGYBTB7CeXHx1wL/200.webp?cid=ecf05e47kdh422aastkaoqkoygedqzv0vuw2ou0bpovo7e25&ep=v1_gifs_search&rid=200.webp&ct=g"
+    },
+    {
+      "id": "11",
+      "category": "Yogurt",
+      "name": "Greek Yogurt",
+      "description": "Thick and creamy Greek yogurt, high in protein",
+      "price": 3.99,
+      "image": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzl0dmI2cjY0NTU5YWhlMHFycDVkYmxxcWVjOHBicjFpYW9uZ3pvbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ajdQmxda8kfXeZlXdO/giphy.webp"
+    },
+    {
+      "id": "12",
+      "category": "Yogurt",
+      "name": "Strawberry Yogurt",
+      "description": "Smooth and fruity strawberry yogurt",
+      "price": 2.99,
+      "image": "https://media0.giphy.com/media/lEBM4HsruRgDLWHFP1/giphy.webp?cid=790b7611g9tvb6r64559ahe0qrp5dblqqec8pbr1iaongzoo&ep=v1_gifs_search&rid=giphy.webp&ct=g"
+    }
+  ],
+  "customers": [
+    {
+      "id": "53c0",
+      "fullName": "abc",
+      "productName": "Mozzarella Cheese",
+      "phone": "7878787878",
+      "address": {
+        "street": "Nai Muhalla, Daltonganj, Palamau, Jharkhand",
+        "city": "Daltonganj",
+        "state": "Jharkhand",
+        "zipCode": "822101"
+      }
+    },
+    {
+      "id": "acf8",
+      "fullName": "Palaka",
+      "productName": "Whole Milk",
+      "phone": "9898989898",
+      "address": {
+        "street": "Nai Muhalla, Daltonganj, Palamau, Jharkhand",
+        "city": "Daltonganj",
+        "state": "Jharkhand",
+        "zipCode": "822101"
+      }
+    },
+    {
+      "id": "cf7c",
+      "fullName": "Anjali Rani",
+      "productName": "Soy Milk",
+      "phone": "9090909090",
+      "address": {
+        "street": "Nai Muhalla, Daltonganj, Palamau, Jharkhand",
+        "city": "Daltonganj",
+        "state": "Jharkhand",
+        "zipCode": "822101"
+      }
+    },
+    {
+      "id": "15b0",
+      "fullName": "Anjali Rani",
+      "productName": "Soy Milk",
+      "phone": "7878787878",
+      "address": {
+        "street": "Nai Muhalla, Daltonganj, Palamau, Jharkhand",
+        "city": "Daltonganj",
+        "state": "Jharkhand",
+        "zipCode": "822101"
+      }
+    },
+    {
+      "id": "47d1",
+      "fullName": "Anjali Rani",
+      "productName": "Skim Milk",
+      "phone": "8989898989",
+      "address": {
+        "street": "Nai Muhalla, Daltonganj, Palamau, Jharkhand",
+        "city": "Daltonganj",
+        "state": "Jharkhand",
+        "zipCode": "822101"
+      }
+    },
+    {
+      "id": "bed7",
+      "fullName": "Shaily",
+      "productName": "Skim Milk",
+      "phone": "9090909090",
+      "address": {
+        "street": "Nai Muhalla, Daltonganj, Palamau, Jharkhand",
+        "city": "Daltonganj",
+        "state": "Jharkhand",
+        "zipCode": "822101"
+      }
+    },
+    {
+      "id": "54d0",
+      "fullName": "Anjali Rani",
+      "productName": "Mozzarella Cheese",
+      "phone": "7895645647",
+      "address": {
+        "street": "Nai Muhalla, Daltonganj, Palamau, Jharkhand",
+        "city": "Daltonganj",
+        "state": "Jharkhand",
+        "zipCode": "822101"
+      }
+    },
+    {
+      "id": "dcec",
+      "fullName": "Anjali Rani",
+      "productName": "Parmesan Cheese",
+      "phone": "8989898989",
+      "address": {
+        "street": "Nai Muhalla, Daltonganj, Palamau, Jharkhand",
+        "city": "Daltonganj",
+        "state": "Jharkhand",
+        "zipCode": "822101"
+      }
+    },
+    {
+      "id": "07da",
+      "fullName": "Anjali",
+      "productName": "Parmesan Cheese",
+      "phone": "8989898989",
+      "address": {
+        "street": "ABC",
+        "city": "XYS",
+        "state": "sss",
+        "zipCode": "12345"
+      }
+    },
+    {
+      "id": "1312",
+      "fullName": "Basant",
+      "productName": "Skim Milk",
+      "phone": "8989898989",
+      "address": {
+        "street": "abc",
+        "city": "xyz",
+        "state": "ccc",
+        "zipCode": "23145"
+      }
+    }
+  ]
+}

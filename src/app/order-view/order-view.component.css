@@ -1,0 +1,36 @@
+h2{
+    font-family: "Lucida Calligraphy", "URW Chancery L", cursive;
+    font-weight: bold;
+}
+.mainDiv{
+    padding:2%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.productbyId{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin:20px 3% 0 3%;
+    background-color: lightblue;
+    border: 2px solid #3E50B5;
+    color: #3E50B5;
+    /* font-weight: bold; */
+    
+}
+.detailsDiv{
+    width:50%;
+    
+}
+.detailsDiv img{
+    width: 300px;
+    height: 280px;
+}
+.formDiv{
+    width:50%;
+}
+.productName{
+    color: black;
+    font-weight: bold;
+}

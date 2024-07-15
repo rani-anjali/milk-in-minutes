@@ -1,0 +1,23 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 10px 10px;
+    width: 89vw;
+  }
+  
+  #title-block {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  #home-link {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  #navbar{
+    margin-left: 20px;
+  }
+
+  

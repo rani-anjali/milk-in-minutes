@@ -1,0 +1,78 @@
+<div class="mainDiv">
+    <div class="detailsDiv">
+        <mat-card class="productbyId">
+        <h2>Product Details</h2>
+        <mat-card-content >
+        <p>{{ product.name }}</p>
+        <img src="{{product.image}}" alt="">
+        <p>Description: {{ product.description }}</p>
+        <p>Price: {{ product.price }}</p>
+        </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="formDiv">
+        
+        <form [formGroup]="customerForm" (ngSubmit)="onSubmit()">
+
+            <div>
+                <h2>Your ordered product</h2>
+                <!-- productName  -->
+                <mat-form-field class="productName" appearance="fill">
+                    <input matInput type="text" name="productName" placeholder="Product name" formControlName="productName" [(ngModel)]="product.name" [disabled]="true">     
+                </mat-form-field><br>
+            </div>
+
+            <!-- full Name -->
+            <h2>Fill required details to place order.</h2>
+            <mat-form-field color="primary" appearance="fill">
+                <input matInput type="text" name="custName" placeholder="Full name" formControlName="fullName">
+                <mat-error class="error" *ngIf="customerForm.get('fullName')?.errors?.['required']">​
+                    Name is required​.
+                </mat-error>
+                <mat-error class="error" *ngIf="customerForm.get('fullName')?.errors?.['minlength']">
+                    Name should have more than 2 characters.
+                </mat-error>
+            </mat-form-field><br>
+
+            <!-- Phone -->
+            <mat-form-field color="primary" appearance="fill">
+                <input matInput type="text" placeholder="Enter number" formControlName="phone">
+                <mat-error class="error" *ngIf="customerForm.get('phone')?.errors?.['required']">​
+                    phone number is required​.
+                </mat-error>
+            </mat-form-field>
+
+            <div formGroupName="address">
+                <h2>Address</h2>
+                <!-- Street -->
+                    <mat-form-field color="primary" appearance="fill">
+                        <input matInput type="text" placeholder="street Name" formControlName="street">
+                    </mat-form-field>&nbsp;
+                    
+                    
+                    <!-- City -->
+                    <mat-form-field color="primary" appearance="fill">
+                        <input matInput type="text" placeholder="City" formControlName="city">
+                    </mat-form-field>
+                    
+            
+                    <!-- State -->
+                    <mat-form-field color="primary" appearance="fill">
+                        <input matInput type="text" placeholder="State" formControlName="state">
+                    </mat-form-field>&nbsp;
+                    
+            
+                    <!-- Zip code -->
+                    <mat-form-field color="primary" appearance="fill">
+                        <input matInput type="text" placeholder="Zip Code" formControlName="zipCode">
+                        <mat-error class="error" *ngIf="customerForm.get('address.zipCode')?.errors?.['pattern']">
+                            Zip code should be 5-digit or 6 digit number
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+        
+            <button mat-raised-button color="primary" type="submit" [disabled]="customerForm.invalid">Place Order</button>&nbsp;
+            <button mat-raised-button color="primary" type="reset" [disabled]="customerForm.invalid">Reset</button>
+        </form>
+    </div>
+</div>

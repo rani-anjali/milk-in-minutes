@@ -1,0 +1,22 @@
+.each-product{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+.filtered-products{
+    text-align: center;
+    margin: 10px;
+    width:fit-content;
+    height: fit-content;
+    padding: 10px;
+    border:2px solid #3E50B5;
+    color: #3E50B5;
+    background-color: lightblue;
+}
+.filtered-products img{
+    height:170px;
+    width:200px;
+    border-radius: 10px;
+
+}

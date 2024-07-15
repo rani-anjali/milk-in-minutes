@@ -1,0 +1,9 @@
+<!-- <p>filtered-display works!</p> -->
+<app-filter (categorySelected)="onCategorySelected($event)"></app-filter>
+<div class="each-product">
+    <mat-card class="filtered-products" *ngFor="let product of filteredProducts">
+        {{product.name}}
+        <img src="{{product.image}}" alt="{{product.name}} Image">   
+        <h3><strong><u>Price ${{product.price}}</u></strong></h3>
+    </mat-card>
+</div>

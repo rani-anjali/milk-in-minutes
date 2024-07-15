@@ -1,0 +1,24 @@
+#product-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2% 7% ;
+    
+}
+.product-card{
+    height:16%;
+    width:22%;
+    margin: 15px;
+}
+.filtered-products{
+    width:20%;
+    height:43%;
+    padding:10px; 
+    text-align: center;  
+    margin-bottom: 10px;
+    
+}
+
+.productViewPage{
+    background-color: aliceblue;
+    background-size: 50% 100%;
+}

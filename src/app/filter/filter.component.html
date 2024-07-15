@@ -1,0 +1,8 @@
+<mat-form-field color="primary" class="filter" >
+    <mat-label>Select Category</mat-label>
+    <mat-select [(ngModel)]="selectedCategory" (selectionChange)="onCategoryChange()">
+      <mat-option [value]="">All Categories</mat-option>
+      <mat-option *ngFor="let category of categories" [value]="category">{{ category }}</mat-option>
+    </mat-select>
+</mat-form-field>
+  

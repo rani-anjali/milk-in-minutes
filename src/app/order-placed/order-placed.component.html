@@ -1,0 +1,39 @@
+
+<mat-toolbar id="header" color="accent">
+    <h1>Order requests</h1>
+    <!-- <nav>
+        <mat-icon routerLink="/">home</mat-icon>
+    </nav> -->
+  </mat-toolbar>
+  <section id="request-section">
+    <table mat-table [dataSource]="customer" class="mat-elevation-z8">
+  
+        <!-- Customer Name Column -->
+        <ng-container matColumnDef="customerName">
+          <th mat-header-cell *matHeaderCellDef>Customer Name</th>
+          <td mat-cell *matCellDef="let element"> {{element.fullName}} </td>
+        </ng-container>
+      
+        <!-- Customer Phone column -->
+        <ng-container matColumnDef="customerPhone">
+          <th mat-header-cell *matHeaderCellDef> Customer Phone </th>
+          <td mat-cell *matCellDef="let element"> {{element.phone}} </td>
+        </ng-container>
+      
+        <!-- Customer Address Column -->
+        <ng-container matColumnDef="customerAddress">
+          <th mat-header-cell *matHeaderCellDef> Address </th>
+          <td mat-cell *matCellDef="let element"> {{element.address.street}}&comma; {{element.address.city}}&comma; {{element.address.state}}&comma; {{element.address.zipCode}}</td>
+        </ng-container>
+      
+        <!-- Product Name -->
+        <ng-container matColumnDef="productName">
+          <th mat-header-cell *matHeaderCellDef> ordered Product </th>
+          <td mat-cell *matCellDef="let element"> {{element.productName}} </td>
+        </ng-container>
+      
+  
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+  </section>

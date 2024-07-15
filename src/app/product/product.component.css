@@ -1,0 +1,23 @@
+.product-card {
+    margin-bottom: 16px; /* Adjust as needed */
+    background-color:lightblue;
+    border:2px solid #3E50B5;
+    text-align: center;
+    width: 280px;
+  }
+.product-card mat-card-content a{
+  text-decoration: none;
+  
+}
+.product-card mat-card-content h4{
+  font-family: "Comic Sans MS", cursive;
+  color: #3E50B5;
+  font-weight: bold;
+}
+.product-card mat-card-content img{
+  margin-top:-15px;
+  height:200px;
+  width:230px;
+  border: 2px white solid;
+  border-radius: 10px;
+}

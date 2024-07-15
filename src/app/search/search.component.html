@@ -1,0 +1,11 @@
+
+<div id="search">
+    <!-- <input type="text" placeholder="Search Note" [(ngModel)]="searchNote"> -->
+    <mat-form-field appearance="fill">
+        <input matInput type="text" placeholder="search by name" [(ngModel)]="searchString">
+    </mat-form-field>
+    <!-- <button type="submit" (click)="searchData()">Search</button> -->
+    <button mat-icon-button id="search-icon" (click)="searchData()">
+        <mat-icon>search</mat-icon>
+    </button>
+</div>
